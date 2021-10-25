@@ -22,8 +22,13 @@ Add the following line in crontab
 
 This command will be executed every minute, and will check if there is command which is due and launch it
 
+## Note for Windows user
+When using this bundle with Windows, the command will not be executed in background when you start the command cron:run.
+The command will wait until all the launched commands are executed completely before finishing.  
+
 ## Hexalgo
 We are a french agency specialized in Symfony applications for business. 
 
 ## TO DO
 * Add command log
+* Write tests
