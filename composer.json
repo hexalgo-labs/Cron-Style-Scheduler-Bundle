@@ -1,0 +1,27 @@
+{
+    "name": "hexalgo-labs/cron-style-scheduler-bundle",
+    "description": "Manage your automated commands execution by using annotation which use cron expression. Compatible with Symfony 4 and 5.",
+    "keywords": ["symfony", "cron"],
+    "type": "symfony-bundle",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hexalgo",
+            "homepage": "https://hexalgo.fr"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "symfony/framework-bundle": "^3.4|^4|^5",
+        "symfony/console": "^3.4|^4|^5",
+        "symfony/dependency-injection": "^3.4|^4|^5",
+        "symfony/property-access": "^3.4|^4|^5",
+        "doctrine/annotations": "^1.13",
+        "dragonmantank/cron-expression": "^3.1",
+        "cocur/background-process": "^0.7.0"
+    },
+    "autoload": {
+        "psr-4": { "Hexalgo\\CronStyleSchedulerBundle\\": "src/" }
+    }
+}
